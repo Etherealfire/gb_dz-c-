@@ -1,0 +1,11 @@
+Console.WriteLine("Введите ваше число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if (Math.Abs(a) % 2 == 1)
+{
+	Console.WriteLine("Число " + a + " является нечётным");
+}
+else
+{
+	Console.WriteLine("Число " + a + " является чётным");
+}
